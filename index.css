@@ -1,0 +1,178 @@
+header {
+  padding: 30px 40px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+header .nav {
+  background-color: rgb(233, 230, 229);
+  padding: 4px;
+  border-radius: 100px;
+  column-gap: 4px;
+  flex-wrap: nowrap;
+}
+header .nav-item.active {
+  background-color: #fff;
+  border-radius: 100px;
+}
+header .nav-link {
+  color: black;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.first {
+  padding: 180px 40px 100px 40px;
+}
+.first h1 {
+  font-size: 72px;
+  font-weight: 400;
+  margin: 0 20%;
+  padding-bottom: 30px;
+}
+.first .one {
+  display: flex;
+  justify-content: center;
+  column-gap: 4px;
+}
+.first .one p {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 8px 12px;
+}
+.first .one .active {
+  background-color: rgb(232, 229, 228, 0.5);
+  border-radius: 100px;
+}
+.second .image {
+  padding-top: 40px;
+}
+.second .image h6 {
+  display: none;
+  margin: 10px 0 0 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+.second .image h6 span {
+  display: none;
+  color: rgb(0, 0, 0, 0.5);
+}
+.second img {
+  border-radius: 16px;
+  height: 100%;
+}
+.second video {
+  border-radius: 16px;
+  height: 100%;
+  object-fit: fill;
+}
+.third {
+  padding: 200px 40px 150px 40px;
+}
+.third h1 {
+  color: black;
+  font-size: 38px;
+  font-weight: 400;
+}
+.third h1 span {
+  color: rgb(0, 0, 0, 0.5);
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+footer .mehn {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+footer .mehn a {
+  color: black;
+  font-size: 32px;
+}
+.shop {
+  padding-bottom: 40px;
+}
+.shop a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 100px;
+  background-color: black;
+}
+.shop a i {
+  font-size: 16px;
+  color: #fff;
+  margin-right: 10px;
+}
+footer .mehn2 .nav {
+  column-gap: 5px;
+}
+footer .mehn2 a {
+  color: black;
+  font-size: 12px;
+}
+@media (min-width: 809.98px) and (max-width: 1024.98px) {
+  .first h1 {
+    font-size: 48px;
+  }
+}
+@media (min-width: 80px) and (max-width: 809.98px) {
+  .first {
+    padding: 200px 40px 80px 40px;
+  }
+  .first h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  .first .one {
+    display: none;
+  }
+  .second .image {
+    margin-top: 20px;
+    padding-top: 0;
+  }
+  .second .image h6 {
+    display: block;
+  }
+  .second .image h6 span {
+    display: inline;
+  }
+  .second img {
+    border-radius: 16px;
+    height: auto;
+  }
+  .second video {
+    border-radius: 16px;
+    height: auto;
+    object-fit: fill;
+  }
+  .third {
+    padding: 150px 40px 80px 40px;
+  }
+  .third h1 {
+    font-size: 30px;
+  }
+  .shop {
+    padding-bottom: 20px;
+  }
+  footer {
+    display: block;
+    padding: 60px;
+  }
+  footer .mehn {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 10px;
+  }
+  footer .mehn2 .nav {
+    justify-content: center;
+  }
+}
